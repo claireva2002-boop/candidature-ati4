@@ -1,0 +1,152 @@
+/* 2. En-tête et navigation */
+
+.header {
+    background-color:#202020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 6%;
+    border-bottom: 1px solid #514744;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    gap: 24px;
+}
+/* ici il s'agit des differents boutons du header*/
+.navigation a {
+    color:orange;
+    text-decoration: none;
+    font-family: "de Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+}
+
+/*je vais gérer ici la taille de la photo d'équipe*/
+.big-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big-title img {
+    width: 400px;
+    justify-content: flex-end;
+}
+.company {
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 30px;
+    color: #252525;
+}
+
+.tag {
+    color:black;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.company h1 {
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 25px 0;
+}
+
+.company h1 span {
+    color:orange;
+}
+
+.intro {
+    max-width: 550px;
+    margin-bottom: 60px;
+    color: orange;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.info-block {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 25px;
+    padding: 30px 0;
+    border-top: 1px solid burlywood;
+}
+
+.pixel-icon {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+    color: white;
+    font-size: 13px;
+    box-shadow: 5px 5px 0 darkgoldenrod;
+}
+
+.company h2 {
+    font-size: 23px;
+    font-weight: 500;
+    margin: 12px 0;
+}
+
+.info-block p:not(.tag),
+.highlight p:not(.tag) {
+    color: black;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.highlight {
+    margin-top: 35px;
+    padding: 30px;
+    background: lightsalmon;
+}
+
+.highlight h2 {
+    margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+    .company {
+        margin: 40px auto;
+        padding: 24px;
+    }
+
+    .company h1 {
+        font-size: 34px;
+    }
+
+    .info-block {
+        grid-template-columns: 35px 1fr;
+        gap: 15px;
+    }
+
+    .pixel-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .company h2 {
+        font-size: 20px;
+    }
+
+    .highlight {
+        padding: 20px;
+    }
+}
+
+/* Propriétés du footer*/
+.footer {
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid #514744;
+    color: #C8BDB2;
+    font-size: 12px;
+    background-color: #202020;
+}
