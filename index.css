@@ -1,0 +1,106 @@
+/* 1. Réglages généraux */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:darkgrey;
+    color: #EDE5D9;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. En-tête et navigation */
+
+.header {
+    background-color:#202020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 6%;
+    border-bottom: 1px solid #514744;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    gap: 24px;
+}
+/* ici il s'agit des differents boutons du header*/
+.navigation a {
+    color:orange;
+    text-decoration: none;
+    font-family: "de Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 13px;
+}
+/*Le bouton centrale*/
+.bouton {
+    font-family: "de Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color:white;
+    background-color: black;
+    padding: 15px 24px;
+    font-size: 13px;
+    transition: background-color 0.3s;
+    border-radius:5px;
+}
+
+.bouton:hover {
+    background-color: #5c5c5c;
+}
+/* 3. Présentation principale */
+.hero img{
+    text-align: center;
+    height: auto;
+}
+
+.hero img{
+    width: 500px;
+}
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.sur-titre {
+    color: white;
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(48px, 10vw, 120px);
+    line-height: 0.95;
+    letter-spacing: -3px;
+    margin-bottom: 30px;
+}
+
+.introduction {
+    color: black;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+/* Propriétés du footer*/
+.footer {
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid #514744;
+    color: #C8BDB2;
+    font-size: 12px;
+    background-color: #202020;
+}
