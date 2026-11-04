@@ -181,7 +181,7 @@ header img {
         font-size: 36px;
     }
 }
-/*rappel coordonees*/
+/*rappel coordonnees*/
 .columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -190,7 +190,7 @@ header img {
 
 .column {
     border-top: 1px solid #d5d2c9;
-    padding-top: 25px;
+    padding: 25px;
 }
 
 h2 {
@@ -204,13 +204,13 @@ h2 {
     font-size: 16px;
     line-height: 1.8;
 }
-/*coordonées*/
-.lien-linkedin {
+/*coordonnées*/
+.lien {
     color:black;          /* Prend la couleur du texte autour (ex: noir) au lieu du bleu */
     text-decoration: none;   /* Supprime le soulignement par défaut */
 }
 
-.lien-linkedin:hover {
+.lien:hover {
     text-decoration: underline; /* Le soulignement apparaît uniquement quand la souris passe dessus */
 }
 /* Propriétés du footer*/
