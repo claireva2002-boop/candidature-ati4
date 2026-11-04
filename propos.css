@@ -23,7 +23,7 @@ header img {
     color:orange;
     text-decoration: none;
     font-family: "de Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 13px;
+    font-size: 20px;
 }
 .navigation a:hover {
     transition: background-color 0.3s;
@@ -106,18 +106,19 @@ h2 {
     }
 }
 
+/* On organise le conteneur */
 .about-image {
-    width: 100%;
-    height: 280px;
-    margin: 40px 0;
-    overflow: hidden;
+    display: flex;
+    gap: 15px;            /* Espace entre les images */
+    justify-content: center; /* Centre les images horizontalement */
+    margin-bottom: 50px;
 }
 
+/* On adapte la taille des images */
 .about-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+    width: 30%;           /* Chaque image prend environ un tiers de l'espace */
+    height: auto;         /* Conserve le ratio */
+    object-fit: cover; /* Si elles n'ont pas la même hauteur de base, cela les aligne proprement */
 }
 /* Propriétés du footer*/
 .footer {

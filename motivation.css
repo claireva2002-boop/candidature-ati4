@@ -37,7 +37,7 @@ header img {
     color:orange;
     text-decoration: none;
     font-family: "de Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 13px;
+    font-size: 20px;
 }
 /*Toutes la partie fausse lettre manuscrite*/
 .letter {
@@ -91,7 +91,7 @@ header img {
     font-size: 42px;
     font-weight: 600;
     margin-top: -15px !important;
-    color: #8b9b7a;
+    color:orange;
 }
 
 /* Petits motifs pixelisés */
@@ -106,7 +106,7 @@ header img {
     position: absolute;
     width: 13px;
     height: 13px;
-    background-color: #8b9b7a;
+    background-color:orange;
     opacity: 0.65;
 }
 
@@ -180,6 +180,38 @@ header img {
     .signature {
         font-size: 36px;
     }
+}
+/*rappel coordonees*/
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.column {
+    border-top: 1px solid #d5d2c9;
+    padding-top: 25px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.column p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+}
+/*coordonées*/
+.lien-linkedin {
+    color:black;          /* Prend la couleur du texte autour (ex: noir) au lieu du bleu */
+    text-decoration: none;   /* Supprime le soulignement par défaut */
+}
+
+.lien-linkedin:hover {
+    text-decoration: underline; /* Le soulignement apparaît uniquement quand la souris passe dessus */
 }
 /* Propriétés du footer*/
 .footer {

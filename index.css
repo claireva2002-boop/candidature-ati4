@@ -37,7 +37,7 @@ header img {
     color:orange;
     text-decoration: none;
     font-family: "de Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 13px;
+    font-size: 20px;
 }
 /*Le bouton centrale*/
 .bouton {
@@ -45,7 +45,7 @@ header img {
     color:white;
     background-color: black;
     padding: 15px 24px;
-    font-size: 13px;
+    font-size: 17px;
     transition: background-color 0.3s;
     border-radius:5px;
 }
@@ -75,7 +75,7 @@ header img {
 
 .sur-titre {
     color: white;
-    font-size: 11px;
+    font-size: 17px;
     letter-spacing: 4px;
     margin-bottom: 30px;
 }
@@ -90,7 +90,7 @@ header img {
 
 .introduction {
     color: black;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.7;
     margin-bottom: 35px;
 }

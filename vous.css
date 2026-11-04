@@ -1,3 +1,17 @@
+/* 1. Réglages généraux */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:darkgrey;
+    color: #EDE5D9;
+    font-family: Arial, sans-serif;
+}
+
 /* 2. En-tête et navigation */
 
 .header {
@@ -23,7 +37,7 @@ header img {
     color:orange;
     text-decoration: none;
     font-family: "de Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 /*je vais gérer ici la taille de la photo d'équipe*/
