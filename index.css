@@ -69,7 +69,7 @@ header img {
         text-align: center;
     }
 
-    /* 4. Donne du style et de l'espace aux liens pour pouvoir cliquer facilement */
+    /* 4*/
     .navigation a {
         display: block;
         padding: 10px 0;           /* Espace vertical pour faciliter le clic au doigt */
@@ -98,7 +98,7 @@ header img {
 }
 
 .hero img{
-    width: 500px;
+    width: 400px;
 }
 
 .hero {
