@@ -39,6 +39,44 @@ header img {
     font-family: "de Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 20px;
 }
+/*Maintenant je fait la meme demarche pour que le site soit responsive*/
+@media (max-width: 768px) {
+
+    /* 1. Force le header à faire la taille du téléphone et à empiler les éléments */
+    .header {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        display: flex;
+        flex-direction: column;    /* Aligne le logo et le menu verticalement */
+        align-items: center;       /* Centre le logo et le menu */
+        padding: 15px 0;           /* Donne un peu d'air en haut et en bas */
+        box-sizing: border-box;
+    }
+
+    /* 2. Gère la taille du logo sur mobile pour qu'il ne déborde pas */
+    .header img {
+        max-width: 150px;          /* Ajustez cette valeur selon la taille de votre logo */
+        height: auto;
+        margin-bottom: 15px;       /* Crée un espace entre le logo et les liens */
+    }
+
+    /* 3. Réorganise les liens du menu pour le téléphone */
+    .navigation {
+        display: flex;
+        flex-direction: column;    /* Empile les 4 liens les uns sous les autres */
+        width: 100%;
+        text-align: center;
+    }
+
+    /* 4. Donne du style et de l'espace aux liens pour pouvoir cliquer facilement */
+    .navigation a {
+        display: block;
+        padding: 10px 0;           /* Espace vertical pour faciliter le clic au doigt */
+        font-size: 1.1rem;         /* Ajuste la taille du texte si nécessaire */
+        width: 100%;
+    }
+}
 /*Toutes la partie fausse lettre manuscrite*/
 .letter {
     position: relative;
