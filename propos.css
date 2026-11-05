@@ -166,3 +166,7 @@ h2 {
     font-size: 12px;
     background-color: #202020;
 }
+footer img, .footer img {
+    width: 100px;
+    height: auto;
+}
